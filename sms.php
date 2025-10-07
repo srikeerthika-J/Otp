@@ -5,7 +5,7 @@ function sendOtpSms($to, $otp) {
     // Twilio credentials (replace these with your own)
     $sid = 'ACa84c881af393290eac6134f5e91008c4';        // Replace with your Twilio Account SID
     $token = 'a349e9c24947a9d7f1628348cc226412';       // Replace with your Twilio Auth Token
-    $from = '+199940185773'; // Replace with your Twilio phone number
+    $from = '+19787978724'; // Replace with your Twilio phone number
 
     // Twilio API endpoint for sending messages
     $url = "https://api.twilio.com/2010-04-01/Accounts/$sid/Messages.json";
